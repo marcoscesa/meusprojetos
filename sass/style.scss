@@ -1,0 +1,157 @@
+@import "/sass/variabless.scss";
+
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,900;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+.background{
+    background-image: url(/img/capa.jpg);
+
+}
+header{
+    width: 75vw;
+    margin: auto;
+    height: 100vh;
+    
+}
+
+li{
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+    }
+
+
+.header--content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $textcolor-smooth;
+}
+.texts{ 
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.header--title{
+    margin-top: 35vh;
+}
+/*section about*/
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    padding-top: 20px;
+    width: 75vw;
+    height: 30vh;
+    margin: auto;
+    padding: 50px 50px;
+   
+
+    img{ 
+        border-radius: 50%;
+        width: 25vh;
+    }
+    p{ 
+        color: $textcolor-smooth
+    }
+
+}
+
+/*especialidade e serviços*/
+
+.especialidades{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 35px;
+    padding-top: 20px;
+    width: 75vw;
+    height: 40vh;
+    margin: auto;
+    margin-bottom: 100px;
+    padding-top: 200px;
+
+}
+
+// faq
+.faq{
+    padding-top: 20px;
+    width: 75vw;
+    height: 40vh;
+    margin:auto;
+    padding-top: 100px;
+  
+   
+}
+// contato
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    width: 75vw;
+    height: 40vh;
+    margin: 50px auto;
+    
+
+}
+
+.contact--img{
+    img{
+        width: 250px;
+    }
+}
+.form--contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 100px;
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        
+    }
+    input{
+        border: none;
+        border-bottom: 1px solid $colorverede;
+        background: transparent;
+        
+    }
+    input:focus {
+        outline: none;
+    }
+    textarea{
+        max-height: 80px;
+        resize: none;
+    }
+}
+
+//Foooter
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 35px;
+    padding-top: 20px;
+    height: 10vh;
+    margin: 100px auto 0 auto;
+    background-color: $colorverede;
+             
+    .social{
+        display: flex;
+        gap: 15px;
+    }
+
+    img{
+        width: 35px;
+    }
+
+}
